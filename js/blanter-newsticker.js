@@ -57,11 +57,11 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='<div class='jam' id='jam'>'";
+    var s = "<div id='recent_post' title='INFORMASI'";
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
-    s += "<div class='jam' id='jam'>";
+    s += "INFORMASI";
     s += "</div>";
     }
     s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";

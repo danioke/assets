@@ -52,13 +52,12 @@ function recent_post_style(){
     s += "#recent_post{";
     s += "margin:0px;";
     s += "width:auto;";
-    s += "background:#fff;";
     s += "}";
     s += "</style>";
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='<div class='jam' id='jam'>'>";
+    var s = "<div id='recent_post' title='<div class='jam' id='jam'>'";
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";

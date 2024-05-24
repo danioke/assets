@@ -24,9 +24,10 @@ function waktuSholat() {
   			
   			// MANUAL SETTINGS --------------------------------------------------------
   			prayTimes.setMethod('MWL'); // perhitungan
-  			var Ptimes = prayTimes.getTimes(today, [-6.2, 106.8], 7); // jakarta (longitude, Latitude, Time Zone)
+  			var Ptimes = prayTimes.getTimes(today, [-3.3, 104.8], 7); 
   			// ------------------------------------------------------------------------
-  			
+  			// -6.2, 106.8 jakarta (longitude, Latitude, Time Zone)
+	
   			document.getElementById('subuh').innerHTML =   Ptimes.fajr;
   			document.getElementById('terbit').innerHTML =  Ptimes.sunrise;
   			document.getElementById('zuhur').innerHTML =   Ptimes.dhuhr;

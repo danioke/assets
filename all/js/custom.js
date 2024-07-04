@@ -1341,10 +1341,10 @@ $(document).ready(function(){
         function activate_pageGreeting(){
             var greetingTime = new Date().getHours();
             var greetingMessage;
-            var greetingUser = $('.greeting-text').data('data:post.author')
-            var greetingMorning = ('Good morning');
-            var greetingAfternoon = ('Good afternoon');
-            var greetingEvening = ('Good evening');
+            var greetingUser = $('.greeting-text').data('username')
+            var greetingMorning = ('Selamat Pagi');
+            var greetingAfternoon = ('Selamat Siang');
+            var greetingEvening = ('Selamat Malam');
 
             if (greetingTime >= 0 && greetingTime < 12) {greetingMessage = greetingMorning; 
             } else if (greetingTime >= 12 && greetingTime < 17) {greetingMessage = greetingAfternoon;

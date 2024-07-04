@@ -398,8 +398,8 @@ $(document).ready(function(){
             $('.single-slider').owlCarousel({loop:true, margin:20, nav:false, lazyLoad:true, items:1, autoplay: true, autoplayTimeout:4000});		
             $('.single-slider-boxed').owlCarousel({loop:true, stagePadding:30, margin:20, nav:false, lazyLoad:true, items:1, autoplay: true, autoplayTimeout:4000});		
             $('.cover-slider').owlCarousel({loop:true, margin:0, nav:false, lazyLoad:true, items:1, autoplay: true, autoplayTimeout:6000});		
-            $('.double-slider').owlCarousel({loop:true, margin:20, stagePadding:20, nav:false, lazyLoad:false, items:2, autoplay: false, autoplayTimeout:4000});		
-            $('.task-slider').owlCarousel({loop:true, margin:20, nav:false, stagePadding:50, lazyLoad:true, items:2, autoplay: false, autoplayTimeout:4000});		
+            $('.double-slider').owlCarousel({loop:true, margin:20, stagePadding:20, nav:false, lazyLoad:false, items:2, autoplay:true, autoplayTimeout:4000});		
+            $('.task-slider').owlCarousel({loop:true, margin:20, nav:false, stagePadding:50, lazyLoad:true, items:2, autoplay: true, autoplayTimeout:4000});		
             $('.next-slide, .next-slide-arrow, .next-slide-text, .cover-next').on('click',function(){$(this).parent().find('.owl-carousel').trigger('next.owl.carousel');});		
             $('.prev-slide, .prev-slide-arrow, .prev-slide-text, .cover-prev').on('click',function(){$(this).parent().find('.owl-carousel').trigger('prev.owl.carousel');});		
             $('.next-slide-user').on('click',function(){$(this).closest('.owl-carousel').trigger('next.owl.carousel');});		
